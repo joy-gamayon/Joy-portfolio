@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 ## Contact
 If you have any questions or would like to connect, please feel free to reach out:
 
-- **Email**: [lezlyjoy.gamz@example.com](mailto:lezlyjoy.gamz@gmail.com)
+- **Email**: [lezlyjoy.gamz@gmail.com](mailto:lezlyjoy.gamz@gmail.com)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/lezly-joy-gamayon-981546329/)
 - **GitHub**: [https://github.com/<USERNAME>](https://github.com/joy-gamayon)
 
