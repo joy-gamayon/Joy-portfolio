@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23Dgr3zIL4j9n4y7d3+S1jUI6tLlhZ/vc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">My Portfolio</a>
+        </div>
+
+         <!-- Dark/Light Mode Toggle -->
+         <div class="mode-toggle" id="mode-toggle">
+          <span id="dark-mode-icon">🌙</span>
+          <span id="light-mode-icon" style="display: none;">☀️</span>
+      </div> 
+
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <!-- Navbar Links -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <div class="home-container">
+      <div class="profile-photo-wrapper">
+          <img src="images/joy.jpg" alt="Joy's Photo" class="profile-photo">
+      </div>
+      <div class="tagline-wrapper">
+        <h1 class="tagline">Kia ora! <br> I'm Joy,</h1>
+        <p class="sub-tagline">A web developer in the making, crafting seamless digital experiences with a creative spark and a focus on people first.</p>
+      </div>      
+  </div>
+  <div class="resume-contact">
+      <a href="cv/Lezly-Joy-Gamayon-CV.pdf" target="_blank" class="btn">View Resume</a>
+      <a href="#contact" class="btn">Contact Me</a>
+  </div>
+
+   <!-- Social Media Links -->
+  <div class="social-media">
+    <a href="https://www.linkedin.com/in/lezly-joy-gamayon-981546329/" target="_blank" aria-label="LinkedIn">
+      <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+    </a>
+    <a href="https://github.com/joy-gamayon" target="_blank" aria-label="GitHub">
+        <i class="fa fa-github"  style="font-size:36px"></i>
+    </a>
+    <a href="https://www.seek.co.nz/profile/me" target="_blank" aria-label="Seek">
+        <i class="fa fa-search"  style="font-size:36px"></i>
+    </a>
+  </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="about-section">
+  <div class="about-container">
+      <div class="about-photo">
+          <img src="images/joy1.jpeg" alt="Joy Gamayon" class="about-img">
+      </div>
+      <div class="about-content">
+          <h2>About Me</h2>
+          <p>I am an aspiring web developer with a strong foundation in web development and nearly a decade of experience in hospitality, customer service, and retail, particularly as a Pharmacy Assistant Supervisor. My recent completion of a Certificate in Applied Software Development at Dev Academy equipped me with essential skills in HTML, CSS, JavaScript, TypeScript, React, Node.js, Express.js, SQLite3, and RESTful APIs.</p>
+          <p>My passion for web development ignited during a university project where I created a website, inspiring me to pursue a career dedicated to building meaningful, user-centered digital solutions. Currently, I am actively developing personal projects, including an e-commerce site and a budgeting app, where I apply my problem-solving abilities and manage complex tasks.</p>
+          <p>I thrive in collaborative environments that promote continuous learning, and I bring strong leadership, multitasking, and teamwork skills from my previous roles. I am driven by a desire for flexibility and a future-proof career that balances professional aspirations with family life.</p>
+          <p>I am eager to connect with like-minded professionals and explore opportunities for a Junior Web Developer position where I can contribute my technical skills, adaptability, and passion for innovation to a dynamic team.</p>
+      </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills-container">
+      <div class="skill">
+          <i class="fab fa-html5 animate__animated animate__bounce skill-icon" style="color:#e34c26;"></i>
+          <p>HTML</p>
+      </div>
+      <div class="skill">
+          <i class="fab fa-css3-alt animate__animated animate__bounce skill-icon" style="color:#1572B6;"></i>
+          <p>CSS</p>
+      </div>
+      <div class="skill">
+          <i class="fab fa-js-square animate__animated animate__bounce skill-icon" style="color:#F7DF1E;"></i>
+          <p>JavaScript</p>
+      </div>
+      <div class="skill">
+          <i class="fas fa-database animate__animated animate__bounce skill-icon" style="color:#003B57;"></i>
+          <p>SQLite3</p>
+      </div>
+      <div class="skill">
+          <i class="fab fa-node-js animate__animated animate__bounce skill-icon" style="color:#339933;"></i>
+          <p>Node.js</p>
+      </div>
+      <div class="skill">
+          <i class="fas fa-server animate__animated animate__bounce skill-icon" style="color:#000000;"></i>
+          <p>Express.js</p>
+      </div>
+      <div class="skill">
+          <i class="fab fa-react animate__animated animate__bounce skill-icon" style="color:#61DAFB;"></i>
+          <p>React</p>
+      </div>
+  </div>
+</section>
+      
+<!-- Tools Section -->
+<section id="tools">
+  <h3>Tools</h3>
+  <div class="tools-container"> 
+    <div class="tool">
+        <i class="fab fa-git-alt"></i>
+        <p>Git</p>
+    </div>
+    <div class="tool">
+        <i class="fab fa-github"></i>
+        <p>GitHub</p>
+    </div>
+    <div class="tool">
+        <i class="fab fa-trello"></i>
+        <p>Trello</p>
+    </div>
+  </div>
+</section>
+
+<!-- Personal Skills Section -->
+<section id="personal-skills">
+  <h2>Personal Skills</h2>
+  <div class="personal-skills-container">
+      <div class="personal-skill">
+          <i class="fas fa-user-tie personal-skill-icon"></i>
+          <p>Leadership</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-users personal-skill-icon"></i>
+          <p>Teamwork</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-lightbulb personal-skill-icon"></i>
+          <p>Problem-solving</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-headset personal-skill-icon"></i>
+          <p>Customer Service</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-heart personal-skill-icon"></i>
+          <p>Empathy</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-bolt personal-skill-icon"></i>
+          <p>Fast Learner</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-book personal-skill-icon"></i>
+          <p>Willingness to Learn</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-eye personal-skill-icon"></i>
+          <p>Self-awareness</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-smile personal-skill-icon"></i>
+          <p>Positive Attitude</p>
+      </div>
+      <div class="personal-skill">
+          <i class="fas fa-shield-alt personal-skill-icon"></i>
+          <p>Resilience</p>
+      </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+      <div class="project-card">
+          <img src="images/ecommerce-best-practices-.jpg" alt="E-Commerce Project" class="project-image">
+          <h3>E-Commerce Website</h3>
+          <p>An online store with product listings, cart functionality, and payment integration.</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+          <img src="images/Q77qmFi9VeFwZzaKgKp7Vj.jpg" alt="Budget App Project" class="project-image">
+          <h3>Budget Management App</h3>
+          <p>A simple budgeting app that helps users track expenses and manage finances.</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+          <img src="images/19.Skyline Coming Soon.png" alt="Placeholder Project" class="project-image">
+          <h3>Coming Soon</h3>
+          <p>A new project is in progress. Stay tuned for more details!</p>
+          <a href="#" target="_blank" class="btn">View Project</a>
+      </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Mobile: <a href="tel:+64224885711">+64 224 885 711</a></p>
+  <p>Email: <a href="mailto:lezlyjoy.gamz@gmail.com">lezlyjoy.gamz@gmail.com</a></p>
+
+  <h3>Get in Touch</h3>
+  <form id="contact-form">
+      <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+  </form>
+  <div id="response-message"></div>
+</section>  
+
+<!-- Footer Section -->
+<footer>
+  <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
